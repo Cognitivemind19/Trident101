@@ -1,0 +1,27 @@
+*******************************************Git Hub Hands On*************************************************************************
+
+--initialize your git local repository----
+-- create a Repository folder in your local dir and right click on it and select git bash.
+
+command 1: git init  // Initialize a local Git repository
+
+-- connect your local repository to your remote repository
+
+command 2: git remote add origin "https://github.com/CognitiveMinds/Repo1.git" // add remote origin to your repository
+
+-- if there is no error then your remote origin is added to your local repository successfully.
+
+-- pull files from you remote repository to your local repository
+
+command 3: git pull origin master // pull repository to local master branch
+
+-- other way we can you clone command to pull all the files from remote to local.
+
+command 4: git clone "https://github.com/CognitiveMinds/Repo1.git"
+
+-- before we push any new code to central repository , all the change files need to adde to index first.
+-- without adding the file to index we can do any operation with with the file.
+
+command 5 : git status //Check status of the local repository and return some untracked files, those files have not been added to index.
+
+command 6: git add cogn12.txt  // add the file to index 
